@@ -1,0 +1,36 @@
+.advantages {
+	background-image: url('/images/stats.jpg');
+	position: relative;
+	&-shadow {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		z-index: 1;
+		background-color: rgba(0, 0, 0, 0.629);
+	}
+
+	&-heading {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		small {
+			color: rgba(132, 132, 132, 1);
+			font-size: 1.4rem;
+			z-index: 20;
+		}
+		h2 {
+			z-index: 20;
+			font-size: 2.5rem;
+			font-weight: 600;
+			position: relative;
+			line-height: normal;
+		}
+	}
+	&-list {
+		display: flex;
+		margin-top: 6rem;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 5rem;
+	}
+}

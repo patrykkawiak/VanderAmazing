@@ -1,12 +1,12 @@
-const { default: MainNavigation } = require("../MainNavigation/MainNavigation");
+import MainNavigation from '../MainNavigation/MainNavigation';
 
 const Layout = ({ children }) => {
-  return (
-    <>
-      <MainNavigation />
-      <main>{children}</main>
-    </>
-  );
+	return (
+		<>
+			<MainNavigation />
+			<main>{children}</main>
+		</>
+	);
 };
 
-export default Layout
+export default Layout;

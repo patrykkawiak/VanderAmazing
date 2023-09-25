@@ -1,0 +1,17 @@
+.item {
+    z-index: 15;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	width: 25rem;
+
+	h3 {
+		font-size: 2rem;
+	}
+	p {
+		font-size: 1.2rem;
+		text-align: center;
+		max-width: 17rem;
+	}
+}

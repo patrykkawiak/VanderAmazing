@@ -1,0 +1,10 @@
+.blog {
+	padding: 4rem 2rem;
+	background-color: var(--secondBgc);
+}
+
+@media (min-width: 992px) {
+	.blog {
+		padding: 12rem 2rem 4rem 2rem;
+	}
+}

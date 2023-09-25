@@ -1,15 +1,16 @@
 *,
 *::after,
 *::before {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  line-height: 1.5em;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	line-height: 1.5em;
 }
 
 html {
-  scroll-behavior: smooth;
-  font-size: 62.5%;
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+	scroll-padding-top: 4.5rem;
 }
 
 h1,
@@ -18,17 +19,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
+	font-weight: normal;
 }
 
 a {
-  display: block;
-  text-decoration: none;
-  color: inherit;
+	display: block;
+	text-decoration: none;
+	color: inherit;
 }
 
-ul, ol {
-  list-style: none;
+ul,
+ol {
+	list-style: none;
 }
 
 @media (min-width: 576px) {
