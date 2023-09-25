@@ -1,0 +1,21 @@
+$main-color: #a81bda;
+
+html {
+  --bgcColor: #222222;
+  --secondBgc: #292929;
+  --mainText: #fff;
+  --grayText: #c5c5c5;
+}
+
+[data-theme="dark"] {
+  --bgcColor: #222222;
+  --secondBgc: #292929;
+  --mainText: #fff;
+  --grayText: #c5c5c5;
+}
+[data-theme="light"] {
+  --bgcColor: #fff;
+  --secondBgc: #cbcbcb;
+  --mainText: #000;
+  --grayText: #c5c5c5;
+}

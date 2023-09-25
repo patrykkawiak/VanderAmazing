@@ -1,0 +1,11 @@
+@use "base" as *;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  background-color: var(--bgcColor);
+  font-weight: normal;
+  color: var(--mainText);
+}
+
