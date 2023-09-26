@@ -1,0 +1,10 @@
+.members {
+	&-list {
+		display: flex;
+		margin-top: 6rem;
+        justify-content: center;
+        gap: 4rem; 
+        flex-wrap: wrap;
+	}
+}
+

@@ -9,9 +9,10 @@
 
 	&-primary {
 		background-color: var(--mainColor);
+		color: white;
 	}
 	&-secondary {
 		background-color: transparent;
-		border: 1px solid var(--mainColor);
+		border: 2px solid var(--mainColor);
 	}
 }

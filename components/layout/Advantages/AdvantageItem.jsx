@@ -10,8 +10,8 @@ const AdvantageItem = (props) => {
 			<Image
 				src={'/images/wallet.png'}
 				alt='wallet icon'
-				width={80}
-				height={80}
+				width={60}
+				height={60}
 			/>
 			<h3>{title}</h3>
 			<p>{desc}</p>

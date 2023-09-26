@@ -5,6 +5,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		gap: 8rem;
 	}
 	&-content {
 		display: flex;
@@ -25,12 +26,15 @@
 		padding: 0 2rem;
 		&-box {
 			flex-direction: row;
+			gap: 8rem;
 		}
 		&-content {
-			width: 30%;
+			width: 50%;
 		}
 		img {
-			width: 70%;
+			width: 50%;
+			max-height: 35rem;
+			
 		}
 	}
 }

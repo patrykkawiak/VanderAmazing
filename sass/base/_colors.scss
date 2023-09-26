@@ -5,12 +5,18 @@
 	--mainText: #fff;
 	--grayText: #c5c5c5;
 	--mobileNav: #323232;
+	--hotShot: #262626;
+	--bestsellerBorder: rgb(55, 55, 55);
+	--inputColor: #656565;
 }
 [data-theme='light'] {
 	--mainColor: #cb1bda;
 	--bgcColor: #fff;
-	--secondBgc: #cbcbcb;
+	--secondBgc: #f1f1f1;
 	--mainText: #000;
-	--grayText: #c5c5c5;
+	--grayText: #585858;
 	--mobileNav: #aaaaaa;
+	--hotShot: #ffffff;
+	--bestsellerBorder: rgb(222, 221, 221);
+	--inputColor: #eaeaea;
 }

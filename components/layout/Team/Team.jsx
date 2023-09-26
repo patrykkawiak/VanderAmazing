@@ -6,10 +6,10 @@ import Image from 'next/image';
 const Team = () => {
 	return (
 		<section className={`${classes.team}`}>
-			<div className='wrapper'>
+			<div className='wrapper section-padding'>
 				<div className={classes['team-box']}>
 					<article className={classes['team-content']}>
-                    <Heading title={'Nasz zespół'} subtitle={'Kim jesteśmy?'} />
+						<Heading title={'Nasz zespół'} subtitle={'Kim jesteśmy?'} />
 						<h3>
 							Vander<span className='highlighted'>Amazing</span>Team
 						</h3>
@@ -17,8 +17,9 @@ const Team = () => {
 							Jestesmy Lorem ipsum dolor sit amet consectetur adipisicing elit.
 							Veritatis nobis adipisci necessitatibus perferendis, at impedit
 							vel, explicabo, maxime deserunt quo ad dolorem perspiciatis
-							ducimus nulla! Ut esse consequuntur asperiores maxime? vel, explicabo, maxime deserunt quo ad dolorem perspiciatis
-							ducimus nulla! Ut esse consequuntur asperiores maxime?
+							ducimus nulla! Ut esse consequuntur asperiores maxime? vel,
+							explicabo, maxime deserunt quo ad dolorem perspiciatis ducimus
+							nulla! Ut esse consequuntur asperiores maxime?
 						</p>
 						<div>
 							<Button variant={'primary'}>Zobacz się z nami</Button>
@@ -26,8 +27,8 @@ const Team = () => {
 					</article>
 					<Image
 						src={'/images/team.png'}
-						height={750}
-						width={750}
+						height={650}
+						width={650}
 						alt='team photo'
 					/>
 				</div>

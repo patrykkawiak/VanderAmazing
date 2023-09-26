@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Button from '@/components/UI/Button/Button';
 import classes from './Header.module.scss';
-import HotShot from '../../utils/HotShot/HotShot';
+import HotShot from './HotShot/HotShot';
 
 const Header = () => {
 	return (
